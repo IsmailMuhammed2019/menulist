@@ -2,7 +2,13 @@ import React from 'react'
 
 const Menu = ({menuData}) => {
     return (
-        <h4>hello app 1</h4>
+        <div className="section-center">
+            {menuData.map((item) => {
+                return (
+                    
+                )
+            })}
+        </div>
     ) 
 }
 
