@@ -5,6 +5,11 @@ import items from './data'
 
 
 function App() {
+
+  const filterItems = (category) => {
+    const newCategory = items.filter((item) => item.category === category)
+    setMenuData(newCategory)
+  }
   const [menuData, setMenuData] = useState(items)
   return (
     <main>
