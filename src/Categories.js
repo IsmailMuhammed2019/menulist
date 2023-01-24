@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Categories = () => {
+const Categories = ({filterItems}) => {
   return (
-    <h4>Menu here</h4>
+    
   )
 }
 
