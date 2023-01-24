@@ -3,6 +3,7 @@ import Menu from './Menu'
 import Categories from './Categories'
 import items from './data'
 
+const newitems = ['all', ...new Set(items.map(item) => item.category)]
 
 function App() {
 
