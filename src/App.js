@@ -7,6 +7,10 @@ import items from './data'
 function App() {
 
   const filterItems = (category) => {
+    if(category === 'all'){
+      setMenuData(items)
+      return
+    }
     const newCategory = items.filter((item) => item.category === category)
     setMenuData(newCategory)
   }
