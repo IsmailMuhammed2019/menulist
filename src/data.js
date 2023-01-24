@@ -70,15 +70,6 @@ const menu = [
     price: 16.99,
     img: 'https://raw.githubusercontent.com/john-smilga/react-projects/master/05-menu/setup/public/images/item-9.jpeg',
     desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
-  },
-  ,
-  {
-    id: 7,
-    title: 'oreo dream',
-    category: 'supper',
-    price: 18.99,
-    img: 'https://raw.githubusercontent.com/john-smilga/react-projects/master/05-menu/setup/public/images/item-6.jpeg',
-    desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
   }
 ]
 export default menu
