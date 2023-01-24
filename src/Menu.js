@@ -2,9 +2,8 @@ import React from 'react'
 
 const Menu = () => {
     return (
-        <h4>Hello Menu</h4>
- )
- 
+        <h4>hello app 1</h4>
+    ) 
 }
 
 export default Menu

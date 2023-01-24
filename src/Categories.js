@@ -2,7 +2,7 @@ import React from 'react'
 
 const Categories = () => {
   return (
-    <h4>hello cat</h4>
+    <h4>Menu here</h4>
   )
 }
 

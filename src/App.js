@@ -5,8 +5,18 @@ import items from './data'
 
 
 function App() {
+  const [menuData, setMenuData] = useState(items)
   return (
-    <h4>Hello app</h4>
+    <main>
+      <section>
+        <div className='title'>
+          <h2>Our Menu</h2>
+          <div className='underline'></div>
+        </div>
+        <Categories />
+        <Menu menuData={menuData} />
+      </section>
+    </main>
   )
 }
 
